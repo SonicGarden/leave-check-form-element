@@ -2,7 +2,11 @@
   "compilerOptions": {
     "module": "esnext",
     "target": "es2017",
-    "lib": ["es2018", "dom"],
+    "lib": [
+      "es2019",
+      "dom",
+      "DOM.Iterable"
+    ],
     "strict": true,
     "declaration": true,
     "outDir": "dist",
@@ -10,5 +14,9 @@
     "preserveConstEnums": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "exclude": [
+    "dist",
+    "test/*.ts"
+  ]
 }

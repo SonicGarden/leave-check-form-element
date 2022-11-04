@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>custom-element demo</title>
-  </head>
-  <body>
-    <custom-element></custom-element>
 
-    <script type="module">
-      // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
-      import '../src/custom-element.ts'
-    </script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>leave-check-form demo</title>
+</head>
+
+<body>
+  <leave-check-form>
+    <form>
+      <textarea rows="10" name="field1"></textarea>
+      <select name="field2">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+      <input type="submit" value="submit">
+    </form>
+  </leave-check-form>
+  <a href="https://github.com/">Leave</a>
+
+  <script type="module">
+    // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
+    import '../src/leave-check-form.ts'
+  </script>
+</body>
+
 </html>
