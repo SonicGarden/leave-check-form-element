@@ -1,11 +1,11 @@
-# &lt;custom-element&gt; element
+# &lt;leave-check-form&gt; element
 
-Boilerplate for creating a custom element.
+Confirm to leave the page when editing a form.
 
 ## Installation
-Available on [npm](https://www.npmjs.com/) as [**@github/custom-element-element**](https://www.npmjs.com/package/@github/custom-element-element).
+
 ```
-$ npm install --save @github/custom-element-element
+$ npm install --save @sonicgarden/leave-check-form-element
 ```
 
 ## Usage
@@ -15,22 +15,21 @@ $ npm install --save @github/custom-element-element
 Import as ES modules:
 
 ```js
-import '@github/custom-element-element'
+import '@sonicgarden/leave-check-form-element'
 ```
-
-Include with a script tag:
 
 ```html
-<script type="module" src="./node_modules/@github/custom-element-element/dist/index.js">
-```
-
-An example Custom Element. This documentation ends up in the
-README so describe how this elements works here.
-
-You can event add examples on the element is used with Markdown.
-
-```
-<custom-element></custom-element>
+<leave-check-form>
+  <form>
+    <select name="country">
+      <option>United States</option>
+      <option>Canada</option>
+      <option>Mexico</option>
+    </select>
+    <textarea name="comment"></textarea>
+    <input type="submit" value="submit">
+  </form>
+</leave-check-form>
 ```
 
 ## Browser support
