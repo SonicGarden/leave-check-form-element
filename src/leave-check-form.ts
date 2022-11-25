@@ -54,7 +54,7 @@ export class LeaveCheckForm extends HTMLElement {
     if (!this.form) return undefined
 
     const formData = new FormData(this.form)
-    return JSON.stringify(Object.fromEntries(formData))
+    return JSON.stringify(Array.from(formData.entries()))
   }
 }
 

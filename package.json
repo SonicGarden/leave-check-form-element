@@ -1,6 +1,6 @@
 {
   "name": "@sonicgarden/leave-check-form-element",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Confirm to leave the page when editing a form.",
   "main": "dist/leave-check-form.js",
   "module": "dist/leave-check-form.js",
